@@ -41,6 +41,8 @@
                     </li>
                 </ul>
             </nav>
+
+            <div class="clearfix"></div>
     </header>
 
     <div id="contenedor">
@@ -84,33 +86,55 @@
         <div id="principal">
             <h1 id="principal">Ultimas entradas</h1>
             <article class="entrada">
-                <h2>Titulo de mi entrada</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Pellentesque dui erat, mattis id arcu sit amet, aliquam fringilla ante. 
-                    Quisque aliquet suscipit ante, vitae scelerisque justo tempor quis. 
-                </p>
+                <a href="">
+                    <h2>Titulo de mi entrada</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Pellentesque dui erat, mattis id arcu sit amet, aliquam fringilla ante. 
+                        Quisque aliquet suscipit ante, vitae scelerisque justo tempor quis. 
+                    </p>
+                </a>
             </article>
 
             <article class="entrada">
-                <h2>Titulo de mi entrada</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Pellentesque dui erat, mattis id arcu sit amet, aliquam fringilla ante. 
-                    Quisque aliquet suscipit ante, vitae scelerisque justo tempor quis. 
-                </p>
+                <a href="">
+                    <h2>Titulo de mi entrada</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Pellentesque dui erat, mattis id arcu sit amet, aliquam fringilla ante. 
+                        Quisque aliquet suscipit ante, vitae scelerisque justo tempor quis. 
+                    </p>
+                </a>
             </article>
 
             <article class="entrada">
-                <h2>Titulo de mi entrada</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Pellentesque dui erat, mattis id arcu sit amet, aliquam fringilla ante. 
-                    Quisque aliquet suscipit ante, vitae scelerisque justo tempor quis. 
-                </p>
+                <a href="">
+                    <h2>Titulo de mi entrada</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Pellentesque dui erat, mattis id arcu sit amet, aliquam fringilla ante. 
+                        Quisque aliquet suscipit ante, vitae scelerisque justo tempor quis. 
+                    </p>
+                </a>
             </article>
-        </div>
+          
+            <article class="entrada">
+                <a href="">
+                    <h2>Titulo de mi entrada</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Pellentesque dui erat, mattis id arcu sit amet, aliquam fringilla ante. 
+                        Quisque aliquet suscipit ante, vitae scelerisque justo tempor quis. 
+                    </p>
+                </a>
+            </article>
 
+            <div id="ver-todas">
+                <a href="">Ver todas las entradas</a>
+            </div>
+        </div> <!-- fin princiapl -->
+
+        <div class="clearfix"></div>
     </div>
 
     <!-- PUE DE PAGINA -->
