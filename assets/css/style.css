@@ -1,0 +1,52 @@
+/* FUENTES */
+@font-face {
+    font-family: "fajala";
+    src: url(../fonts/fuente.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* GENERALES*/
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.clearfix {
+    clear: both;
+    float: none;
+}
+
+body {
+    background: url(../img/cubes.png) #F4F4F4;
+}
+
+#cabecera {
+    width: 85%; 
+    height: auto;
+    background: transparent;
+    margin: 0 auto;
+}
+
+#logo {
+    float: left;
+    width: 540px;
+    height: 140px;
+}
+
+#logo a {
+    font-family: "fajala", Helvetica;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #2979CD;
+    text-shadow: 0px 0px 0px black, 1px 1px 0px black, 2px 2px 0px black;
+    transition: all 500ms;
+}
+
+#logo a:hover {
+    cursor: pointer;
+    text-shadow: 0px 0px 0px black, -1px -1px 0px black, -2px -2px 0px black;
+
+}
